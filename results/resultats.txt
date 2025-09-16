@@ -1,0 +1,176 @@
+Résultats combinés pour algos AG et ACO 
+
+test avec n_cities = 5 (AG) 
+Exécution 1
+Meilleur circuit est : [4, 3, 2, 0, 1], Distance : 191
+Exécution 2
+Meilleur circuit est : [4, 1, 0, 2, 3], Distance : 191
+Exécution 3
+Meilleur circuit est : [2, 3, 4, 1, 0], Distance : 191
+
+Matrice des distances :
+[[ 0 32 55 75 86]
+ [32  0 72 58 32]
+ [55 72  0 51 60]
+ [75 58 51  0 21]
+ [86 32 60 21  0]]
+Meilleure solution pour n_cities=5 : [4, 3, 2, 0, 1], Distance : 191
+Temps d'exécution total : 0.73 secondes
+
+=== Test avec n_cities = 5 (ACO) ===
+Exécution 1
+Meilleur circuit : [1, 4, 3, 2, 0], Distance : 191
+Exécution 2
+Meilleur circuit : [3, 4, 1, 0, 2], Distance : 191
+Exécution 3
+Meilleur circuit : [0, 1, 4, 3, 2], Distance : 191
+
+Matrice des distances :
+[[ 0 32 55 75 86]
+ [32  0 72 58 32]
+ [55 72  0 51 60]
+ [75 58 51  0 21]
+ [86 32 60 21  0]]
+Meilleure solution pour n_cities=5 : [1, 4, 3, 2, 0], Distance : 191
+Temps d'exécution total : 0.01 secondes
+
+test avec n_cities = 10 (AG) 
+Exécution 1
+Meilleur circuit est : [3, 8, 5, 6, 9, 4, 0, 2, 7, 1], Distance : 300
+Exécution 2
+Meilleur circuit est : [3, 8, 5, 6, 9, 4, 0, 2, 7, 1], Distance : 300
+Exécution 3
+Meilleur circuit est : [8, 5, 6, 9, 4, 0, 2, 7, 1, 3], Distance : 300
+
+Matrice des distances :
+[[ 0 42 17 48 13 68 60 50 64 53]
+ [42  0 80 40 56 36 79 38 55 61]
+ [17 80  0 66 76 68 64 47 42 43]
+ [48 40 66  0 92 61 70 50 30 26]
+ [13 56 76 92  0 42 66 58 45 31]
+ [68 36 68 61 42  0 33 54 23 63]
+ [60 79 64 70 66 33  0 77 53 28]
+ [50 38 47 50 58 54 77  0 34 67]
+ [64 55 42 30 45 23 53 34  0 23]
+ [53 61 43 26 31 63 28 67 23  0]]
+Meilleure solution pour n_cities=10 : [3, 8, 5, 6, 9, 4, 0, 2, 7, 1], Distance : 300
+Temps d'exécution total : 1.46 secondes
+
+=== Test avec n_cities = 10 (ACO) ===
+Exécution 1
+Meilleur circuit : [6, 5, 8, 3, 1, 7, 2, 0, 4, 9], Distance : 300
+Exécution 2
+Meilleur circuit : [1, 3, 8, 5, 6, 9, 4, 0, 2, 7], Distance : 300
+Exécution 3
+Meilleur circuit : [8, 5, 6, 9, 3, 1, 7, 2, 0, 4], Distance : 310
+
+Matrice des distances :
+[[ 0 42 17 48 13 68 60 50 64 53]
+ [42  0 80 40 56 36 79 38 55 61]
+ [17 80  0 66 76 68 64 47 42 43]
+ [48 40 66  0 92 61 70 50 30 26]
+ [13 56 76 92  0 42 66 58 45 31]
+ [68 36 68 61 42  0 33 54 23 63]
+ [60 79 64 70 66 33  0 77 53 28]
+ [50 38 47 50 58 54 77  0 34 67]
+ [64 55 42 30 45 23 53 34  0 23]
+ [53 61 43 26 31 63 28 67 23  0]]
+Meilleure solution pour n_cities=10 : [6, 5, 8, 3, 1, 7, 2, 0, 4, 9], Distance : 300
+Temps d'exécution total : 0.05 secondes
+
+test avec n_cities = 15 (AG) 
+Exécution 1
+Meilleur circuit est : [4, 8, 0, 10, 6, 9, 5, 11, 7, 3, 14, 13, 2, 1, 12], Distance : 469
+Exécution 2
+Meilleur circuit est : [9, 5, 11, 4, 8, 2, 1, 12, 7, 3, 14, 13, 10, 0, 6], Distance : 467
+Exécution 3
+Meilleur circuit est : [11, 7, 3, 14, 13, 2, 1, 12, 4, 8, 0, 10, 6, 9, 5], Distance : 469
+
+Matrice des distances :
+[[ 0 45 68 64 76 43 15 64 32 63 32 63 55 35 42]
+ [45  0 29 77 32 58 24 77 68 71 64 68 39 47 66]
+ [68 29  0 53 62 83 39 73 19 60 60 84 44 26 50]
+ [64 77 53  0 47 54 69 48 39 88 59 93 50 59 45]
+ [76 32 62 47  0 73 24 45 15 57 45 31 32 39 38]
+ [43 58 83 54 73  0 81 92 55 29 57 40 60 43 63]
+ [15 24 39 69 24 81  0 69 56 19 19 78 43 91 25]
+ [64 77 73 48 45 92 69  0 47 44 66 42 48 36 68]
+ [32 68 19 39 15 55 56 47  0 85 53 30 58 23 54]
+ [63 71 60 88 57 29 19 44 85  0 54 49 50 40 84]
+ [32 64 60 59 45 57 19 66 53 54  0 50 66 36 77]
+ [63 68 84 93 31 40 78 42 30 49 50  0 48 50 42]
+ [55 39 44 50 32 60 43 48 58 50 66 48  0 69 55]
+ [35 47 26 59 39 43 91 36 23 40 36 50 69  0 22]
+ [42 66 50 45 38 63 25 68 54 84 77 42 55 22  0]]
+Meilleure solution pour n_cities=15 : [9, 5, 11, 4, 8, 2, 1, 12, 7, 3, 14, 13, 10, 0, 6], Distance : 467
+Temps d'exécution total : 1.92 secondes
+
+=== Test avec n_cities = 15 (ACO) ===
+Exécution 1
+Meilleur circuit : [4, 12, 1, 2, 8, 11, 5, 9, 6, 0, 10, 13, 14, 3, 7], Distance : 480
+Exécution 2
+Meilleur circuit : [11, 7, 3, 12, 4, 8, 2, 1, 6, 9, 5, 0, 10, 13, 14], Distance : 482
+Exécution 3
+Meilleur circuit : [11, 10, 0, 6, 14, 13, 2, 1, 12, 4, 8, 3, 7, 9, 5], Distance : 485
+
+Matrice des distances :
+[[ 0 45 68 64 76 43 15 64 32 63 32 63 55 35 42]
+ [45  0 29 77 32 58 24 77 68 71 64 68 39 47 66]
+ [68 29  0 53 62 83 39 73 19 60 60 84 44 26 50]
+ [64 77 53  0 47 54 69 48 39 88 59 93 50 59 45]
+ [76 32 62 47  0 73 24 45 15 57 45 31 32 39 38]
+ [43 58 83 54 73  0 81 92 55 29 57 40 60 43 63]
+ [15 24 39 69 24 81  0 69 56 19 19 78 43 91 25]
+ [64 77 73 48 45 92 69  0 47 44 66 42 48 36 68]
+ [32 68 19 39 15 55 56 47  0 85 53 30 58 23 54]
+ [63 71 60 88 57 29 19 44 85  0 54 49 50 40 84]
+ [32 64 60 59 45 57 19 66 53 54  0 50 66 36 77]
+ [63 68 84 93 31 40 78 42 30 49 50  0 48 50 42]
+ [55 39 44 50 32 60 43 48 58 50 66 48  0 69 55]
+ [35 47 26 59 39 43 91 36 23 40 36 50 69  0 22]
+ [42 66 50 45 38 63 25 68 54 84 77 42 55 22  0]]
+Meilleure solution pour n_cities=15 : [4, 12, 1, 2, 8, 11, 5, 9, 6, 0, 10, 13, 14, 3, 7], Distance : 480
+Temps d'exécution total : 0.11 secondes
+
+test avec n_cities = 50 (AG) 
+Exécution 1
+Meilleur circuit est : [23, 30, 2, 41, 37, 20, 19, 47, 13, 31, 45, 26, 17, 16, 36, 3, 8, 32, 15, 38, 5, 12, 28, 40, 9, 25, 42, 11, 1, 43, 22, 49, 27, 35, 39, 34, 4, 44, 48, 7, 46, 10, 18, 29, 21, 33, 24, 0, 6, 14], Distance : 1108
+
+Matrice des distances :
+[[ 0 59 70 ... 60 52 60]
+ [59  0 60 ... 35 49 69]
+ [70 60  0 ... 58 60 43]
+ ...
+ [60 35 58 ...  0 47 42]
+ [52 49 60 ... 47  0 80]
+ [60 69 43 ... 42 80  0]]
+Meilleure solution pour n_cities=50 : [23, 30, 2, 41, 37, 20, 19, 47, 13, 31, 45, 26, 17, 16, 36, 3, 8, 32, 15, 38, 5, 12, 28, 40, 9, 25, 42, 11, 1, 43, 22, 49, 27, 35, 39, 34, 4, 44, 48, 7, 46, 10, 18, 29, 21, 33, 24, 0, 6, 14], Distance : 1108
+Temps d'exécution total : 11.27 secondes
+
+=== Test avec n_cities = 50 (ACO) ===
+Exécution 1
+Meilleur circuit : [8, 30, 46, 10, 18, 29, 9, 33, 24, 0, 6, 14, 23, 19, 47, 25, 42, 11, 39, 4, 44, 38, 5, 21, 16, 17, 26, 45, 31, 1, 43, 22, 49, 27, 35, 12, 28, 40, 41, 37, 20, 34, 3, 36, 13, 48, 7, 2, 15, 32], Distance : 1115
+
+Matrice des distances :
+[[ 0 59 70 ... 60 52 60]
+ [59  0 60 ... 35 49 69]
+ [70 60  0 ... 58 60 43]
+ ...
+ [60 35 58 ...  0 47 42]
+ [52 49 60 ... 47  0 80]
+ [60 69 43 ... 42 80  0]]
+Meilleure solution pour n_cities=50 : [8, 30, 46, 10, 18, 29, 9, 33, 24, 0, 6, 14, 23, 19, 47, 25, 42, 11, 39, 4, 44, 38, 5, 21, 16, 17, 26, 45, 31, 1, 43, 22, 49, 27, 35, 12, 28, 40, 41, 37, 20, 34, 3, 36, 13, 48, 7, 2, 15, 32], Distance : 1115
+Temps d'exécution total : 0.60 secondes
+
+=== Résumé des résultats ===
+Algorithme génétique (AG):
+n_cities=5: Distance=191.00, Temps=0.73s, Circuit=[4, 3, 2, 0, 1]
+n_cities=10: Distance=300.00, Temps=1.46s, Circuit=[3, 8, 5, 6, 9, 4, 0, 2, 7, 1]
+n_cities=15: Distance=467.00, Temps=1.92s, Circuit=[9, 5, 11, 4, 8, 2, 1, 12, 7, 3, 14, 13, 10, 0, 6]
+n_cities=50: Distance=1108.00, Temps=11.27s, Circuit=[23, 30, 2, 41, 37, 20, 19, 47, 13, 31, 45, 26, 17, 16, 36, 3, 8, 32, 15, 38, 5, 12, 28, 40, 9, 25, 42, 11, 1, 43, 22, 49, 27, 35, 39, 34, 4, 44, 48, 7, 46, 10, 18, 29, 21, 33, 24, 0, 6, 14]
+
+Algorithme des colonies de fourmis (ACO):
+n_cities=5: Distance=191.00, Temps=0.01s, Circuit=[1, 4, 3, 2, 0]
+n_cities=10: Distance=300.00, Temps=0.05s, Circuit=[6, 5, 8, 3, 1, 7, 2, 0, 4, 9]
+n_cities=15: Distance=480.00, Temps=0.11s, Circuit=[4, 12, 1, 2, 8, 11, 5, 9, 6, 0, 10, 13, 14, 3, 7]
+n_cities=50: Distance=1115.00, Temps=0.60s, Circuit=[8, 30, 46, 10, 18, 29, 9, 33, 24, 0, 6, 14, 23, 19, 47, 25, 42, 11, 39, 4, 44, 38, 5, 21, 16, 17, 26, 45, 31, 1, 43, 22, 49, 27, 35, 12, 28, 40, 41, 37, 20, 34, 3, 36, 13, 48, 7, 2, 15, 32]
